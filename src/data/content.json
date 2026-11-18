@@ -1,0 +1,634 @@
+{
+  "phrases": {
+    "greeting": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-greeting.mp3",
+        "ru": "/assets/audio/ru/phrase-greeting.mp3"
+      },
+      "label": {
+        "kk": "Сәлем, балақай! Бірге ойнайық!",
+        "ru": "Привет, малыш! Давай играть!"
+      }
+    },
+    "cardsMenu": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-cardsMenu.mp3",
+        "ru": "/assets/audio/ru/phrase-cardsMenu.mp3"
+      },
+      "label": {
+        "kk": "Тақырыпты таңда!",
+        "ru": "Выбери тему!"
+      }
+    },
+    "find": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-find.mp3",
+        "ru": "/assets/audio/ru/phrase-find.mp3"
+      },
+      "label": {
+        "kk": "Тауып көр:",
+        "ru": "Найди:"
+      }
+    },
+    "yurtIntro": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-yurtIntro.mp3",
+        "ru": "/assets/audio/ru/phrase-yurtIntro.mp3"
+      },
+      "label": {
+        "kk": "Киіз үйді бірге құрайық!",
+        "ru": "Давай вместе соберём юрту!"
+      }
+    },
+    "yurtDone": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-yurtDone.mp3",
+        "ru": "/assets/audio/ru/phrase-yurtDone.mp3"
+      },
+      "label": {
+        "kk": "Жарайсың! Киіз үй дайын!",
+        "ru": "Молодец! Юрта готова!"
+      }
+    },
+    "memoryChooseSet": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-memoryChooseSet.mp3",
+        "ru": "/assets/audio/ru/phrase-memoryChooseSet.mp3"
+      },
+      "label": {
+        "kk": "Суреттерді таңда!",
+        "ru": "Выбери картинки!"
+      }
+    },
+    "memoryChooseLevel": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-memoryChooseLevel.mp3",
+        "ru": "/assets/audio/ru/phrase-memoryChooseLevel.mp3"
+      },
+      "label": {
+        "kk": "Қанша жұп болады?",
+        "ru": "Сколько будет пар?"
+      }
+    },
+    "memoryIntro": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-memoryIntro.mp3",
+        "ru": "/assets/audio/ru/phrase-memoryIntro.mp3"
+      },
+      "label": {
+        "kk": "Жұбын тап!",
+        "ru": "Найди пару!"
+      }
+    },
+    "memoryDone": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-memoryDone.mp3",
+        "ru": "/assets/audio/ru/phrase-memoryDone.mp3"
+      },
+      "label": {
+        "kk": "Керемет! Барлық жұпты таптың!",
+        "ru": "Здорово! Ты нашёл все пары!"
+      }
+    },
+    "praise1": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-praise1.mp3",
+        "ru": "/assets/audio/ru/phrase-praise1.mp3"
+      },
+      "label": {
+        "kk": "Жарайсың!",
+        "ru": "Молодец!"
+      }
+    },
+    "praise2": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-praise2.mp3",
+        "ru": "/assets/audio/ru/phrase-praise2.mp3"
+      },
+      "label": {
+        "kk": "Керемет!",
+        "ru": "Отлично!"
+      }
+    },
+    "praise3": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-praise3.mp3",
+        "ru": "/assets/audio/ru/phrase-praise3.mp3"
+      },
+      "label": {
+        "kk": "Тамаша!",
+        "ru": "Здорово!"
+      }
+    },
+    "mixed": {
+      "audio": {
+        "kk": "/assets/audio/kk/phrase-mixed.mp3",
+        "ru": "/assets/audio/ru/phrase-mixed.mp3"
+      },
+      "label": {
+        "kk": "Аралас",
+        "ru": "Всё вместе"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "yurt",
+      "icon": "/assets/img/cat-yurt.svg",
+      "color": "#F2A541",
+      "audio": {
+        "kk": "/assets/audio/kk/cat-yurt.mp3",
+        "ru": "/assets/audio/ru/cat-yurt.mp3"
+      },
+      "label": {
+        "kk": "Киіз үй",
+        "ru": "Юрта"
+      },
+      "items": [
+        {
+          "id": "shanyrak",
+          "image": "/assets/img/shanyrak.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/shanyrak.mp3",
+            "ru": "/assets/audio/ru/shanyrak.mp3"
+          },
+          "label": {
+            "kk": "шаңырақ",
+            "ru": "шанырак"
+          }
+        },
+        {
+          "id": "kerege",
+          "image": "/assets/img/kerege.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/kerege.mp3",
+            "ru": "/assets/audio/ru/kerege.mp3"
+          },
+          "label": {
+            "kk": "кереге",
+            "ru": "кереге"
+          }
+        },
+        {
+          "id": "uyq",
+          "image": "/assets/img/uyq.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/uyq.mp3",
+            "ru": "/assets/audio/ru/uyq.mp3"
+          },
+          "label": {
+            "kk": "уық",
+            "ru": "уык"
+          }
+        },
+        {
+          "id": "tuyrlyq",
+          "image": "/assets/img/tuyrlyq.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/tuyrlyq.mp3",
+            "ru": "/assets/audio/ru/tuyrlyq.mp3"
+          },
+          "label": {
+            "kk": "туырлық",
+            "ru": "туырлык"
+          }
+        },
+        {
+          "id": "kiiz",
+          "image": "/assets/img/kiiz.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/kiiz.mp3",
+            "ru": "/assets/audio/ru/kiiz.mp3"
+          },
+          "label": {
+            "kk": "киіз",
+            "ru": "кошма"
+          }
+        },
+        {
+          "id": "tuskiiz",
+          "image": "/assets/img/tuskiiz.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/tuskiiz.mp3",
+            "ru": "/assets/audio/ru/tuskiiz.mp3"
+          },
+          "label": {
+            "kk": "тұскиіз",
+            "ru": "тускиз"
+          }
+        },
+        {
+          "id": "saba",
+          "image": "/assets/img/saba.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/saba.mp3",
+            "ru": "/assets/audio/ru/saba.mp3"
+          },
+          "label": {
+            "kk": "саба",
+            "ru": "саба"
+          }
+        },
+        {
+          "id": "sandyq",
+          "image": "/assets/img/sandyq.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/sandyq.mp3",
+            "ru": "/assets/audio/ru/sandyq.mp3"
+          },
+          "label": {
+            "kk": "сандық",
+            "ru": "сундук"
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "icon": "/assets/img/cat-food.svg",
+      "color": "#EF6F4B",
+      "audio": {
+        "kk": "/assets/audio/kk/cat-food.mp3",
+        "ru": "/assets/audio/ru/cat-food.mp3"
+      },
+      "label": {
+        "kk": "Ұлттық тағамдар",
+        "ru": "Национальные блюда"
+      },
+      "items": [
+        {
+          "id": "baursak",
+          "image": "/assets/img/baursak.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/baursak.mp3",
+            "ru": "/assets/audio/ru/baursak.mp3"
+          },
+          "label": {
+            "kk": "бауырсақ",
+            "ru": "баурсаки"
+          }
+        },
+        {
+          "id": "beshbarmak",
+          "image": "/assets/img/beshbarmak.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/beshbarmak.mp3",
+            "ru": "/assets/audio/ru/beshbarmak.mp3"
+          },
+          "label": {
+            "kk": "бешбармақ",
+            "ru": "бешбармак"
+          }
+        },
+        {
+          "id": "shelpek",
+          "image": "/assets/img/shelpek.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/shelpek.mp3",
+            "ru": "/assets/audio/ru/shelpek.mp3"
+          },
+          "label": {
+            "kk": "шелпек",
+            "ru": "шельпек"
+          }
+        },
+        {
+          "id": "kurt",
+          "image": "/assets/img/kurt.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/kurt.mp3",
+            "ru": "/assets/audio/ru/kurt.mp3"
+          },
+          "label": {
+            "kk": "құрт",
+            "ru": "курт"
+          }
+        },
+        {
+          "id": "sorpa",
+          "image": "/assets/img/sorpa.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/sorpa.mp3",
+            "ru": "/assets/audio/ru/sorpa.mp3"
+          },
+          "label": {
+            "kk": "сорпа",
+            "ru": "сорпа"
+          }
+        },
+        {
+          "id": "sutti-shai",
+          "image": "/assets/img/sutti-shai.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/sutti-shai.mp3",
+            "ru": "/assets/audio/ru/sutti-shai.mp3"
+          },
+          "label": {
+            "kk": "сүтті шай",
+            "ru": "чай с молоком"
+          }
+        }
+      ]
+    },
+    {
+      "id": "animals",
+      "icon": "/assets/img/cat-animals.svg",
+      "color": "#6CBF4B",
+      "audio": {
+        "kk": "/assets/audio/kk/cat-animals.mp3",
+        "ru": "/assets/audio/ru/cat-animals.mp3"
+      },
+      "label": {
+        "kk": "Үй жануарлары",
+        "ru": "Домашние животные"
+      },
+      "items": [
+        {
+          "id": "tuye",
+          "image": "/assets/img/tuye.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/tuye.mp3",
+            "ru": "/assets/audio/ru/tuye.mp3"
+          },
+          "label": {
+            "kk": "түйе",
+            "ru": "верблюд"
+          }
+        },
+        {
+          "id": "zhylqy",
+          "image": "/assets/img/zhylqy.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/zhylqy.mp3",
+            "ru": "/assets/audio/ru/zhylqy.mp3"
+          },
+          "label": {
+            "kk": "жылқы",
+            "ru": "лошадь"
+          }
+        },
+        {
+          "id": "qoy",
+          "image": "/assets/img/qoy.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/qoy.mp3",
+            "ru": "/assets/audio/ru/qoy.mp3"
+          },
+          "label": {
+            "kk": "қой",
+            "ru": "овца"
+          }
+        },
+        {
+          "id": "siyr",
+          "image": "/assets/img/siyr.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/siyr.mp3",
+            "ru": "/assets/audio/ru/siyr.mp3"
+          },
+          "label": {
+            "kk": "сиыр",
+            "ru": "корова"
+          }
+        },
+        {
+          "id": "eshki",
+          "image": "/assets/img/eshki.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/eshki.mp3",
+            "ru": "/assets/audio/ru/eshki.mp3"
+          },
+          "label": {
+            "kk": "ешкі",
+            "ru": "коза"
+          }
+        },
+        {
+          "id": "it",
+          "image": "/assets/img/it.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/it.mp3",
+            "ru": "/assets/audio/ru/it.mp3"
+          },
+          "label": {
+            "kk": "ит",
+            "ru": "собака"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "icon": "/assets/img/cat-clothes.svg",
+      "color": "#4FA3E0",
+      "audio": {
+        "kk": "/assets/audio/kk/cat-clothes.mp3",
+        "ru": "/assets/audio/ru/cat-clothes.mp3"
+      },
+      "label": {
+        "kk": "Ұлттық киім",
+        "ru": "Национальная одежда"
+      },
+      "items": [
+        {
+          "id": "shapan",
+          "image": "/assets/img/shapan.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/shapan.mp3",
+            "ru": "/assets/audio/ru/shapan.mp3"
+          },
+          "label": {
+            "kk": "шапан",
+            "ru": "шапан"
+          }
+        },
+        {
+          "id": "taqiya",
+          "image": "/assets/img/taqiya.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/taqiya.mp3",
+            "ru": "/assets/audio/ru/taqiya.mp3"
+          },
+          "label": {
+            "kk": "тақия",
+            "ru": "тюбетейка"
+          }
+        },
+        {
+          "id": "kamzol",
+          "image": "/assets/img/kamzol.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/kamzol.mp3",
+            "ru": "/assets/audio/ru/kamzol.mp3"
+          },
+          "label": {
+            "kk": "камзол",
+            "ru": "камзол"
+          }
+        },
+        {
+          "id": "saukele",
+          "image": "/assets/img/saukele.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/saukele.mp3",
+            "ru": "/assets/audio/ru/saukele.mp3"
+          },
+          "label": {
+            "kk": "сәукеле",
+            "ru": "саукеле"
+          }
+        },
+        {
+          "id": "etik",
+          "image": "/assets/img/etik.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/etik.mp3",
+            "ru": "/assets/audio/ru/etik.mp3"
+          },
+          "label": {
+            "kk": "етік",
+            "ru": "сапоги"
+          }
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "icon": "/assets/img/cat-music.svg",
+      "color": "#9B6BD6",
+      "audio": {
+        "kk": "/assets/audio/kk/cat-music.mp3",
+        "ru": "/assets/audio/ru/cat-music.mp3"
+      },
+      "label": {
+        "kk": "Музыкалық аспаптар",
+        "ru": "Музыкальные инструменты"
+      },
+      "items": [
+        {
+          "id": "dombyra",
+          "image": "/assets/img/dombyra.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/dombyra.mp3",
+            "ru": "/assets/audio/ru/dombyra.mp3"
+          },
+          "label": {
+            "kk": "домбыра",
+            "ru": "домбра"
+          }
+        },
+        {
+          "id": "qobyz",
+          "image": "/assets/img/qobyz.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/qobyz.mp3",
+            "ru": "/assets/audio/ru/qobyz.mp3"
+          },
+          "label": {
+            "kk": "қобыз",
+            "ru": "кобыз"
+          }
+        },
+        {
+          "id": "sybyzgy",
+          "image": "/assets/img/sybyzgy.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/sybyzgy.mp3",
+            "ru": "/assets/audio/ru/sybyzgy.mp3"
+          },
+          "label": {
+            "kk": "сыбызғы",
+            "ru": "сыбызгы"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ornaments",
+      "icon": "/assets/img/cat-ornaments.svg",
+      "color": "#E0559A",
+      "audio": {
+        "kk": "/assets/audio/kk/cat-ornaments.mp3",
+        "ru": "/assets/audio/ru/cat-ornaments.mp3"
+      },
+      "label": {
+        "kk": "Ою-өрнек",
+        "ru": "Орнаменты"
+      },
+      "items": [
+        {
+          "id": "qoshqar-muiz",
+          "image": "/assets/img/qoshqar-muiz.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/qoshqar-muiz.mp3",
+            "ru": "/assets/audio/ru/qoshqar-muiz.mp3"
+          },
+          "label": {
+            "kk": "қошқар мүйіз",
+            "ru": "бараньи рога"
+          }
+        },
+        {
+          "id": "qos-muiz",
+          "image": "/assets/img/qos-muiz.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/qos-muiz.mp3",
+            "ru": "/assets/audio/ru/qos-muiz.mp3"
+          },
+          "label": {
+            "kk": "қос мүйіз",
+            "ru": "двойной рог"
+          }
+        },
+        {
+          "id": "tuye-taban",
+          "image": "/assets/img/tuye-taban.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/tuye-taban.mp3",
+            "ru": "/assets/audio/ru/tuye-taban.mp3"
+          },
+          "label": {
+            "kk": "түйе табан",
+            "ru": "верблюжий след"
+          }
+        },
+        {
+          "id": "qus-qanaty",
+          "image": "/assets/img/qus-qanaty.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/qus-qanaty.mp3",
+            "ru": "/assets/audio/ru/qus-qanaty.mp3"
+          },
+          "label": {
+            "kk": "құс қанаты",
+            "ru": "крыло птицы"
+          }
+        },
+        {
+          "id": "it-quyryq",
+          "image": "/assets/img/it-quyryq.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/it-quyryq.mp3",
+            "ru": "/assets/audio/ru/it-quyryq.mp3"
+          },
+          "label": {
+            "kk": "ит құйрық",
+            "ru": "собачий хвост"
+          }
+        },
+        {
+          "id": "gul",
+          "image": "/assets/img/gul.svg",
+          "audio": {
+            "kk": "/assets/audio/kk/gul.mp3",
+            "ru": "/assets/audio/ru/gul.mp3"
+          },
+          "label": {
+            "kk": "гүл",
+            "ru": "цветок"
+          }
+        }
+      ]
+    }
+  ]
+}

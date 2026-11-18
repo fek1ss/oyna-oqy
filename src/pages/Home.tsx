@@ -42,7 +42,7 @@ export function Home() {
             )}
           </div>
           <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-amber-600 drop-shadow-sm">
-            oyna<span className="text-sky-500">-</span>oqy
+            ОЙНА<span className="text-sky-500">-</span>oqy
           </h1>
         </div>
 
